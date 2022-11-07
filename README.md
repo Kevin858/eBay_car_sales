@@ -1,8 +1,12 @@
 # Exploring eBay Car Sales Data
 
-Goals: To clean the data and analyze the included used car listings.
+## Goals
 
-Dataset: used cars from eBay Kleinanzeigen, a classifieds section of the German eBay website. The dataset was originally scraped and uploaded to Kaggle by user orgesleka. The original dataset isn't available on Kaggle anymore, but you can find it here.
+To clean the data and analyze the included used car listings.
+
+## Dataset
+
+used cars from eBay Kleinanzeigen, a classifieds section of the German eBay website. The dataset was originally scraped and uploaded to Kaggle by user orgesleka. The original dataset isn't available on Kaggle anymore, but you can find it here.
 
 We've made a few modifications from the original dataset. We sampled 50,000 data points from the full dataset, to ensure your code runs quickly in our hosted environment
 
@@ -47,3 +51,7 @@ The data dictionary provided with data is as follows:
   - postalCode - The postal code for the location of the vehicle.
 
   - lastSeenOnline - When the crawler saw this ad last online.
+  
+  ## Conclusion
+  
+The range of car mileages does not vary as much as the prices do by brand, instead all falling within 10% for the top brands. There is a slight trend to the more expensive vehicles having higher mileage, with the less expensive vehicles having lower mileage.
